@@ -1,18 +1,18 @@
 .card {
   position: sticky;
   width: 300px;
-  height: 90px;
-  background: white;
+  height: 150px;
+  background: #fff;
   border-radius: 20px;
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
-  transition: 0.5s;
+  transition: 0.5s ease;
   margin-top: 12em;
   cursor: pointer;
 }
 .card:hover {
-  height: 400px;
-  margin-bottom: -10em;
+  height: 450px;
   transform: translateY(-120px);
+  margin-bottom: -7em;
 }
 .imgbox {
   position: absolute;
@@ -33,7 +33,7 @@
   transform: translateX(-50%);
   width: 100px;
   height: 100px;
-  transition: 0.5s;
+  transition: 0.5s ease-in;
 }
 .imgbox img {
   position: absolute;
@@ -49,18 +49,18 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   overflow: hidden;
 }
 .card .content .details {
   padding: 30px;
   text-align: center;
   width: 100%;
-  transition: 0.8s;
-  transform: translateY(340px);
+  transition: 0.8s ease-in;
+  transform: translateY(55px);
 }
 .card:hover .content .details {
-  transform: translateY(0px);
+  transform: translateY(15px);
 }
 
 .card .content .details h2 {
@@ -85,21 +85,8 @@
   padding: 5px 0px;
   margin-top: 12px;
   /* transition: 1s;
-      transition-timing-function: linear; */
+  transition-timing-function: linear; */
 }
-/* .card .content .details .data .member_socials {
-  display: flex;
-  list-style: none;
-  justify-content: space-evenly;
-  padding-top: 25px;
-}
-.card .content .details .data .member_socials li a {
-  padding: 5px 7px;
-  border-radius: 25px;
-  border: 2px solid black;
-  font-size: 20px;
-  color: black;
-} */
 
 .Media_icons {
   margin-top: 1.8rem;
@@ -114,4 +101,10 @@
   border-radius: 100%;
   padding: 0.6rem;
   /* margin-right: 2rem; */
+}
+
+.Gmail a {
+  font-size: 27px;
+  color: black;
+  text-decoration: none;
 }
