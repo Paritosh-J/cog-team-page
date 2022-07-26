@@ -35,6 +35,9 @@ import img31 from "../Images/Aniket Mishra.jpg";
 import img32 from "../Images/Paritosh.jpg";
 
 const Team = () => {
+  
+  // Team Members Data list
+  
   let content = [
     {
       id: 1,
@@ -420,6 +423,9 @@ const Team = () => {
     },
   ];
 
+  
+  // Teams Members Component
+  
   return (
     <div className="team">
       {content.map((con) => (
