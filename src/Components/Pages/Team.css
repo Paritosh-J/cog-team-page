@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* ------------ CSS FOR RESPONSIVENESS ------------ */
 .team {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -11,5 +12,4 @@
   justify-content: space-around;
   justify-items: center;
   padding: 4rem;
-  /* row-gap: 4rem; */
 }
