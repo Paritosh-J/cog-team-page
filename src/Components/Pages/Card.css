@@ -1,3 +1,4 @@
+/*------------ CSS OF THE MEMBER CARD ------------*/
 .card {
   position: sticky;
   width: 300px;
@@ -84,8 +85,6 @@
   text-align: justify;
   padding: 5px 0px;
   margin-top: 12px;
-  /* transition: 1s;
-  transition-timing-function: linear; */
 }
 
 .Media_icons {
@@ -100,7 +99,6 @@
   outline: none;
   border-radius: 100%;
   padding: 0.6rem;
-  /* margin-right: 2rem; */
 }
 
 .Gmail a {
