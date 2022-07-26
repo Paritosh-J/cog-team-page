@@ -1,34 +1,36 @@
 import React from "react";
 import "./Card.css";
+
+// Importing Social ICONS
 import { SiGmail } from "react-icons/si"
-// import mail from "../Images/mail.png";
 import github from "../Images/github.png";
 import linkedin from "../Images/linkedin.png";
 import instagram from "../Images/instagram.png";
+
 
 const Card = (prop) => {
   return (
     <>
       <div class="card">
         <div class="imgbox">
-          <img src={prop.src} alt="" />
+          <img src={prop.src} alt="" />      // Memeber Image Dispaly
         </div>
         <div class="content">
           <div class="details">
             <h2>
-              {prop.name} <br />
+              {prop.name} <br />             // Member Name Dispaly on Card
               <span>
-                {prop.post} <br />
+                {prop.post} <br />           // Member Designation in Cognizance Club
               </span>
             </h2>
             <div class="data">
-              <p>{prop.desc}</p>
-
-              <div class="Media_icons">
+              <p>
+                {prop.desc}                  // Member Description
+              </p>             
+              <div class="Media_icons">      // Member Socials
                 <ul>
                   <li class="icon Gmail">
                     <a href="mailto:{prop.mail}" target="_blank">
-                      {/* <img src={mail} alt="https://www.google.com" /> */}
                       <SiGmail />
                     </a>
                   </li>
