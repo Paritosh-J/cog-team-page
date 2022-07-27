@@ -13,21 +13,21 @@ const Card = (prop) => {
     <>
       <div class="card">
         <div class="imgbox">
-          <img src={prop.src} alt="" />      // Memeber Image Dispaly
+          <img src={prop.src} alt="" />      
         </div>
         <div class="content">
           <div class="details">
             <h2>
-              {prop.name} <br />             // Member Name Dispaly on Card
+              {prop.name} <br />            
               <span>
-                {prop.post} <br />           // Member Designation in Cognizance Club
+                {prop.post} <br />           
               </span>
             </h2>
             <div class="data">
               <p>
-                {prop.desc}                  // Member Description
+                {prop.desc}                  
               </p>             
-              <div class="Media_icons">      // Member Socials
+              <div class="Media_icons">     
                 <ul>
                   <li class="icon Gmail">
                     <a href="mailto:{prop.mail}" target="_blank">
