@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../Images/logo.png";
+// import logo from "../Images/logo.png";
 import mail from "../Images/mail.png";
 import github from "../Images/github.png";
 import linkedin from "../Images/linkedin.png";
@@ -9,13 +9,10 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="logo">
+        {/* <div className="logo">
           <img src={logo} alt="https://www.instagram.com" />
-        </div>
-        <div className="copyright">
-          copyright © 2022 - <br />
-          cognizance.amrita
-        </div>
+        </div> */}
+
         <div className="SMediaGroup">
           <div className="Smedia1">
             <a href="mailto:contact@cognizance-amrita.in" target="_blank">
@@ -44,6 +41,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <div className="copyright">copyright © 2022 - cognizance.amrita</div>
       </footer>
     </>
   );
